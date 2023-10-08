@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+ Hostar</title>
+    <!----css file-->
+    <link rel="stylesheet" href="style.css">
+    <!-----JQuery link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <!--navbar  section start from here--->
+    <nav class="navbar">
+        <!--logo image and text-->
+        <img src="images/logo.png" class="brand-logo" alt="logo">
+        <ul class="nav-link">
+            <li class="nav-items"><a href="#">Home</a></li>
+            <li class="nav-items"><a href="#">Movies</a></li>
+            <li class="nav-items"><a href="#">TV Shows</a></li>
+            <li class="nav-items"><a href="#">Originals</a></li>
+            <li class="nav-items"><a href="#">Kids</a></li>
+            <li class="nav-items"><a href="#">Sports</a></li>
+        </ul>
+        <div class="right-container">
+            <input type="text" class="serch-box" placeholder="Search">
+            <button class="sub-btn">Subscribe</button>
+            <a href="#" class="login-link">Login</a>
+        </div>
+    </nav>
+    <!--navbar section end from here-->
+    <!--main container starts form here -->
+    <div class="caraousel-container">
+        <div class="carousel">
+           <!---<div class="slider">
+                <div class="slide-content">
+                    <h1 class="movie-title">Loki</h1>
+                    <p class="movie-des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda magnam
+                        soluta placeat, nihil officiis in!
+                    </p>
+
+                </div>
+                <img src="images/slider 1.PNG" alt="slider-1">
+            </div>--->
+        </div>
+    </div>
+    <!-------main container end here-->
+    <!--------vedio-card-->
+    <div class="vedio-card-container">
+        <div class="video-card">
+            <img src="images/disney.PNG"  class="vedio-card-image" alt="vedio-1">
+            <video src="videos/disney.mp4" muted loop class="card-vedio"></video>
+        </div>
+
+        <div class="video-card"> 
+            <img src="images/pixar.PNG" alt="vedio-2" class="vedio-card-image">
+            <video src="videos/pixar.mp4" muted loop class="card-vedio"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/marvel.PNG" alt="vedio-3" class="vedio-card-image">
+            <video src="videos/marvel.mp4" muted loop class="card-vedio"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/star-wars.PNG" alt="vedio-4" class="vedio-card-image">
+            <video src="videos/star-war.mp4" muted loop class="card-vedio"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/geographic.PNG" alt="vedio-5" class="vedio-card-image">
+            <video src="videos/geographic.mp4" muted loop class="card-vedio"></video>
+        </div>
+    </div>
+    <!-----vedio card container end here-->
+    <!------vedio recommended--->
+    <h1 class="title"><u>Recommended For You</u></h1>
+    <div class="movies-list">
+        <button class="pre-button" title="btn-1">
+            <img src="images/nxt.png" alt="pre-2">
+        </button>
+        <button class="nxt-button" title="btn-2">
+            <img src="images/pre.png" alt="pre-1">
+        </button>
+        <div class="card-container">
+
+            <div class="card">
+            <img src="images/poster 1.png" alt="poster-1" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Add To WatchList</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 2.png" alt="poster-2" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Add To WatchList</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 3.png" alt="poster-3" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Add To WatchList</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 4.png" alt="poster-4" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Add To WatchList</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 5.png" alt="poster-5" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Add To WatchList</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 6.png" alt="poster-6" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Add To WatchList</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 7.png" alt="poster-7" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Add To WatchList</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 8.png" alt="poster-8" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Add To WatchList</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 9.png" alt="poster-9" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Add To WatchList</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 10.png" alt="poster-10" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Add To WatchList</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 11.png" alt="poster-11" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Add To WatchList</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 12.png" alt="poster-12" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Add To WatchList</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-------recommended section end here-->
+    <!----popular show section start here-->
+    <h1 class="title"><u>Popular Show</u></h1>
+    <div class="movies-list">
+        <button class="pre-button" title="btn-1">
+            <img src="images/nxt.png" alt="pre-2">
+        </button>
+        <button class="nxt-button" title="btn-2">
+            <img src="images/pre.png" alt="pre-1">
+        </button>
+        <div class="card-container">
+
+            <div class="card">
+            <img src="images/poster 12.png" alt="poster-1" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 11.png" alt="poster-2" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 10.png" alt="poster-3" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 9.png" alt="poster-4" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 8.png" alt="poster-5" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 7.png" alt="poster-6" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 6.png" alt="poster-7" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 5.png" alt="poster-8" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 4.png" alt="poster-9" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 3.png" alt="poster-10" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 2.png" alt="poster-11" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/poster 1.png" alt="poster-12" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!----popular section end here-->
+    <!---popular in action-->
+    <h1 class="title"><u>Popular in Action</h1>
+    <div class="movies-list">
+        <button class="pre-button" title="btn-1">
+            <img src="images/nxt.png" alt="pre-2">
+        </button>
+        <button class="nxt-button" title="btn-2">
+            <img src="images/pre.png" alt="pre-1">
+        </button>
+        <div class="card-container">
+
+            <div class="card">
+            <img src="images/mov-1.jpeg" alt="poster-1" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/mov-2.jpeg" alt="poster-2" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/mov-3.jpeg" alt="poster-3" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/mov-4.jpeg" alt="poster-4" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/mov-5.jpeg" alt="poster-5" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/mov-6.jpeg" alt="poster-6" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/mov-7.jpeg" alt="poster-7" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/mov-8.jpeg" alt="poster-8" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/mov-9.jpeg" alt="poster-9" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/mov-10.jpeg" alt="poster-10" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/mov-11.jpeg" alt="poster-11" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/mov-12.jpeg" alt="poster-12" class="card-img">
+            <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut!</h6>
+                <button class="watch-list-btn">Watch Now</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!---popular in action end here-->
+    <!-----footer of the page start from here-->
+    <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-column">
+            <h3>Disney+ Hotstar</h3>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Subscriptions</h3>
+            <ul>
+              <li><a href="#">Plans and Pricing</a></li>
+              <li><a href="#">Manage Your Subscription</a></li>
+              <li><a href="#">Cancel Your Subscription</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Help Center</h3>
+            <ul>
+              <li><a href="#">Getting Started</a></li>
+              <li><a href="#">Troubleshooting</a></li>
+              <li><a href="#">Contact Support</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Follow Us</h3>
+            <ul class="social-media-links">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright &copy; 2023 Disney+ Hotstar</p>
+        </div>
+      </footer>
+
+
+    <!------footer of the page end here-->
+
+    <!----js file-->
+    <script src="script.js" async></script>
+</body>
+</html>
